@@ -785,6 +785,15 @@ fill: transparent;
         .feature-item {
             width: calc((100% - 72px) / 2);
         }
+        .team-list {
+            display: flex;
+            gap: 24px;
+        }
+        .teammate-list {
+            width: calc((100% - 72px) / 2);
+            max-width: 264px;
+        }
+       
         
         .portfolio-list {
             display: flex;
@@ -821,6 +830,9 @@ letter-spacing: 0.02em;
     
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-back.jpg);
    
+}
+.teammate-list {
+    width: calc((100% - 72px) / 4);
 }
     .feature-icon-container {
         display: flex;
