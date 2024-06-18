@@ -216,7 +216,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding: 188px 0;
+    /* padding: 188px 0; */
+    padding: 72px 0;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobackmob.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -262,8 +263,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404BBF;
 }
 .feature-section {
-    padding: 120px 0;
-   
+    /* padding: 120px 0; */
+    padding: 96px 0;
 }
 .visually-hidden {
     position: absolute;
@@ -308,7 +309,8 @@ margin-bottom: 8px;
 .featurecontent {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-weight: 500;
     line-height: 24px;
     text-align: left;
     letter-spacing: 0.02em;
@@ -519,13 +521,14 @@ text-align: left;
 letter-spacing: 0.02em;
 /* max-width: 264px; */
 max-width: 288px;
-margin-bottom: 72px;
+/* margin-bottom: 72px; */
 }
 
 .logofooter {
     display: inline-block; 
     margin-bottom: 16px;
     padding: 0;
+    justify-content: center;
 }
 
 .footer-social-par {
@@ -548,9 +551,7 @@ justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
-    justify-content: center;   
-
-
+    /* justify-content: center;    */
 }
 
 .icon-footer-link {
@@ -575,13 +576,13 @@ justify-content: center;
     padding: 0 16px;
     margin: 0 auto;
     display: block;
+    gap: 72px;
     }
     .logofooter-container {
-        /* margin-right: 120px; */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        margin-bottom: 72px;
 
     }
     .icon-footer-link:hover, .icon-footer-link:focus{
@@ -885,22 +886,28 @@ fill: transparent;
     letter-spacing: 0.04em;
 }
 .banner {
-   
+    padding: 112px 0;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobacktab.jpg);
 }
 .bannerhead {
     font-size: 56px;
     line-height: 1.07;    
 }
+.feature-section {
+    padding: 120px 0;
+}
+.features {
+    text-align: left;
+}
     .features-list {
         gap: 72px 24px;
         }
         .feature-item {
-            width: calc((100% - 72px) / 2);
+            width: calc((100% - 24px) / 2);
         }
         .team-list {
             display: flex;
-            gap: 24px;
+            gap: 72px 24px;
         }
         .teammate-list {
             width: calc((100% - 72px) / 2);
@@ -924,8 +931,9 @@ fill: transparent;
 .logofooter-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-bottom: 0;
 }
 .footer-subscribe-form {
     flex-direction: row;
@@ -939,6 +947,7 @@ fill: transparent;
 }
 .textfoot {
     max-width: 264px;
+    margin-bottom: 0;
  }
  .modal {
     width: 408px;
@@ -967,7 +976,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 }
 .banner {
-    
+    padding: 188px 0;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-back.jpg);
    
 }
@@ -987,10 +996,13 @@ letter-spacing: 0.02em;
     .features {
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 120%;
         text-align: left;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        }
+        .featurecontent {
+            font-weight: 400;
         }
         .feature-item {
 width: calc((100% - 72px) / 4);
@@ -1013,6 +1025,9 @@ width: calc((100% - 72px) / 4);
 }
 .logofooter-container {
     margin-right: auto;
+}
+.logofooter {
+    text-align: left;
 }
 .footerstyles {
  padding: 100px 0;
